@@ -1,0 +1,342 @@
+{
+  "timestamp": "2026-03-07T03:20:28.964110",
+  "project_root": "/home/akachat/tf_env/Ensemble_CNN_Melanoma",
+  "python_executable": "/home/akachat/tf_env/bin/python",
+  "models_directory": "/home/akachat/tf_env/Ensemble_CNN_Melanoma/Models",
+  "experiments": {
+    "2_1": {
+      "id": "2",
+      "name": "DL_ML - Hybrid DL+ML",
+      "type": "Hybrid (DL+ML)",
+      "file": "experiments/hybrid_dl_ml.py",
+      "description": "Single DL model + Machine Learning classifiers",
+      "status": "SKIPPED",
+      "start_time": null,
+      "end_time": "2026-03-06T19:42:43.833894",
+      "duration": 0,
+      "error": "Pkl file already exists: ResNet50.pkl",
+      "command": null,
+      "models_used": null,
+      "combination_label": "ResNet50"
+    },
+    "2_2": {
+      "id": "2",
+      "name": "DL_ML - Hybrid DL+ML",
+      "type": "Hybrid (DL+ML)",
+      "file": "experiments/hybrid_dl_ml.py",
+      "description": "Single DL model + Machine Learning classifiers",
+      "status": "SKIPPED",
+      "start_time": null,
+      "end_time": "2026-03-06T19:42:44.834282",
+      "duration": 0,
+      "error": "Pkl file already exists: EfficientNetV2B2.pkl",
+      "command": null,
+      "models_used": null,
+      "combination_label": "EfficientNetV2B2"
+    },
+    "2_3": {
+      "id": "2",
+      "name": "DL_ML - Hybrid DL+ML",
+      "type": "Hybrid (DL+ML)",
+      "file": "experiments/hybrid_dl_ml.py",
+      "description": "Single DL model + Machine Learning classifiers",
+      "status": "SKIPPED",
+      "start_time": null,
+      "end_time": "2026-03-06T19:42:45.834577",
+      "duration": 0,
+      "error": "Pkl file already exists: DenseNet169.pkl",
+      "command": null,
+      "models_used": null,
+      "combination_label": "DenseNet169"
+    },
+    "3_1": {
+      "id": "3",
+      "name": "DEUX_DL_ML - Multi-DL+ML Hybrid",
+      "type": "Hybrid (Multi-DL+ML)",
+      "file": "experiments/dual_dl_ml.py",
+      "description": "Two DL models combined + Machine Learning",
+      "status": "SUCCESS",
+      "start_time": "2026-03-06T19:42:48.835306",
+      "end_time": "2026-03-06T20:14:27.156440",
+      "duration": 1898.321134,
+      "error": null,
+      "command": "/home/akachat/tf_env/bin/python -u /home/akachat/tf_env/Ensemble_CNN_Melanoma/experiments/dual_dl_ml.py",
+      "models_used": [
+        "ResNet50",
+        "EfficientNetV2B2"
+      ],
+      "combination_label": "ResNet50 + EfficientNetV2B2",
+      "stdout_lines": 0,
+      "stderr_lines": 0
+    },
+    "3_2": {
+      "id": "3",
+      "name": "DEUX_DL_ML - Multi-DL+ML Hybrid",
+      "type": "Hybrid (Multi-DL+ML)",
+      "file": "experiments/dual_dl_ml.py",
+      "description": "Two DL models combined + Machine Learning",
+      "status": "SUCCESS",
+      "start_time": "2026-03-06T20:14:28.157014",
+      "end_time": "2026-03-06T20:46:47.222974",
+      "duration": 1939.06596,
+      "error": null,
+      "command": "/home/akachat/tf_env/bin/python -u /home/akachat/tf_env/Ensemble_CNN_Melanoma/experiments/dual_dl_ml.py",
+      "models_used": [
+        "ResNet50",
+        "DenseNet169"
+      ],
+      "combination_label": "ResNet50 + DenseNet169",
+      "stdout_lines": 0,
+      "stderr_lines": 0
+    },
+    "3_3": {
+      "id": "3",
+      "name": "DEUX_DL_ML - Multi-DL+ML Hybrid",
+      "type": "Hybrid (Multi-DL+ML)",
+      "file": "experiments/dual_dl_ml.py",
+      "description": "Two DL models combined + Machine Learning",
+      "status": "SUCCESS",
+      "start_time": "2026-03-06T20:46:48.223568",
+      "end_time": "2026-03-06T21:14:34.175255",
+      "duration": 1665.951687,
+      "error": null,
+      "command": "/home/akachat/tf_env/bin/python -u /home/akachat/tf_env/Ensemble_CNN_Melanoma/experiments/dual_dl_ml.py",
+      "models_used": [
+        "EfficientNetV2B2",
+        "DenseNet169"
+      ],
+      "combination_label": "EfficientNetV2B2 + DenseNet169",
+      "stdout_lines": 0,
+      "stderr_lines": 0
+    },
+    "4_1": {
+      "id": "4",
+      "name": "DL_BAGGING - DL Ensemble (3 Models)",
+      "type": "DL Ensemble",
+      "file": "experiments/triple_dl_ensemble.py",
+      "description": "Ensemble of 3 DL models with averaging",
+      "status": "SUCCESS",
+      "start_time": "2026-03-06T21:14:37.176201",
+      "end_time": "2026-03-06T21:36:42.333420",
+      "duration": 1325.157219,
+      "error": null,
+      "command": "/home/akachat/tf_env/bin/python -u /home/akachat/tf_env/Ensemble_CNN_Melanoma/experiments/triple_dl_ensemble.py",
+      "models_used": [
+        "ResNet50",
+        "EfficientNetV2B2",
+        "DenseNet169"
+      ],
+      "combination_label": "ResNet50 + EfficientNetV2B2 + DenseNet169",
+      "stdout_lines": 0,
+      "stderr_lines": 0
+    },
+    "5_1": {
+      "id": "5",
+      "name": "DEUX_DL_BAGGING - DL Ensemble (2 Models)",
+      "type": "DL Ensemble",
+      "file": "experiments/dual_dl_ensemble.py",
+      "description": "Ensemble of 2 DL models with bagging",
+      "status": "SUCCESS",
+      "start_time": "2026-03-06T21:36:45.334399",
+      "end_time": "2026-03-06T21:50:27.735398",
+      "duration": 822.400999,
+      "error": null,
+      "command": "/home/akachat/tf_env/bin/python -u /home/akachat/tf_env/Ensemble_CNN_Melanoma/experiments/dual_dl_ensemble.py",
+      "models_used": [
+        "ResNet50",
+        "EfficientNetV2B2"
+      ],
+      "combination_label": "ResNet50 + EfficientNetV2B2",
+      "stdout_lines": 0,
+      "stderr_lines": 0
+    },
+    "5_2": {
+      "id": "5",
+      "name": "DEUX_DL_BAGGING - DL Ensemble (2 Models)",
+      "type": "DL Ensemble",
+      "file": "experiments/dual_dl_ensemble.py",
+      "description": "Ensemble of 2 DL models with bagging",
+      "status": "SUCCESS",
+      "start_time": "2026-03-06T21:50:28.735762",
+      "end_time": "2026-03-06T22:06:06.735733",
+      "duration": 937.999971,
+      "error": null,
+      "command": "/home/akachat/tf_env/bin/python -u /home/akachat/tf_env/Ensemble_CNN_Melanoma/experiments/dual_dl_ensemble.py",
+      "models_used": [
+        "ResNet50",
+        "DenseNet169"
+      ],
+      "combination_label": "ResNet50 + DenseNet169",
+      "stdout_lines": 0,
+      "stderr_lines": 0
+    },
+    "5_3": {
+      "id": "5",
+      "name": "DEUX_DL_BAGGING - DL Ensemble (2 Models)",
+      "type": "DL Ensemble",
+      "file": "experiments/dual_dl_ensemble.py",
+      "description": "Ensemble of 2 DL models with bagging",
+      "status": "SUCCESS",
+      "start_time": "2026-03-06T22:06:07.736290",
+      "end_time": "2026-03-06T22:22:41.458065",
+      "duration": 993.721775,
+      "error": null,
+      "command": "/home/akachat/tf_env/bin/python -u /home/akachat/tf_env/Ensemble_CNN_Melanoma/experiments/dual_dl_ensemble.py",
+      "models_used": [
+        "EfficientNetV2B2",
+        "DenseNet169"
+      ],
+      "combination_label": "EfficientNetV2B2 + DenseNet169",
+      "stdout_lines": 0,
+      "stderr_lines": 0
+    },
+    "6_1": {
+      "id": "6",
+      "name": "DL_ML_BAGGING - ML Bagging",
+      "type": "Hybrid Ensemble",
+      "file": "experiments/hybrid_dl_ml_ensemble.py",
+      "description": "Single DL model + ML Bagging (SVM, KNN, DT, RF)",
+      "status": "SKIPPED",
+      "start_time": null,
+      "end_time": "2026-03-06T22:22:44.459021",
+      "duration": 0,
+      "error": "Pkl file already exists: ResNet50.pkl",
+      "command": null,
+      "models_used": null,
+      "combination_label": "ResNet50"
+    },
+    "6_2": {
+      "id": "6",
+      "name": "DL_ML_BAGGING - ML Bagging",
+      "type": "Hybrid Ensemble",
+      "file": "experiments/hybrid_dl_ml_ensemble.py",
+      "description": "Single DL model + ML Bagging (SVM, KNN, DT, RF)",
+      "status": "SKIPPED",
+      "start_time": null,
+      "end_time": "2026-03-06T22:22:45.459505",
+      "duration": 0,
+      "error": "Pkl file already exists: EfficientNetV2B2.pkl",
+      "command": null,
+      "models_used": null,
+      "combination_label": "EfficientNetV2B2"
+    },
+    "6_3": {
+      "id": "6",
+      "name": "DL_ML_BAGGING - ML Bagging",
+      "type": "Hybrid Ensemble",
+      "file": "experiments/hybrid_dl_ml_ensemble.py",
+      "description": "Single DL model + ML Bagging (SVM, KNN, DT, RF)",
+      "status": "SKIPPED",
+      "start_time": null,
+      "end_time": "2026-03-06T22:22:46.459918",
+      "duration": 0,
+      "error": "Pkl file already exists: DenseNet169.pkl",
+      "command": null,
+      "models_used": null,
+      "combination_label": "DenseNet169"
+    },
+    "7_1": {
+      "id": "7",
+      "name": "DEUX_DL_ML_BAGGING - Dual DL + ML Bagging",
+      "type": "Hybrid Ensemble",
+      "file": "experiments/dual_hybrid_ensemble.py",
+      "description": "Two DL models + ML Bagging ensemble",
+      "status": "TIMEOUT",
+      "start_time": "2026-03-06T22:22:49.460630",
+      "end_time": "2026-03-06T23:22:49.461616",
+      "duration": 3600.000986,
+      "error": "Execution timeout after 1 hour",
+      "command": "/home/akachat/tf_env/bin/python -u /home/akachat/tf_env/Ensemble_CNN_Melanoma/experiments/dual_hybrid_ensemble.py",
+      "models_used": [
+        "ResNet50",
+        "EfficientNetV2B2"
+      ],
+      "combination_label": "ResNet50 + EfficientNetV2B2"
+    },
+    "7_2": {
+      "id": "7",
+      "name": "DEUX_DL_ML_BAGGING - Dual DL + ML Bagging",
+      "type": "Hybrid Ensemble",
+      "file": "experiments/dual_hybrid_ensemble.py",
+      "description": "Two DL models + ML Bagging ensemble",
+      "status": "TIMEOUT",
+      "start_time": "2026-03-06T23:22:50.462097",
+      "end_time": "2026-03-07T00:22:50.463197",
+      "duration": 3600.0011,
+      "error": "Execution timeout after 1 hour",
+      "command": "/home/akachat/tf_env/bin/python -u /home/akachat/tf_env/Ensemble_CNN_Melanoma/experiments/dual_hybrid_ensemble.py",
+      "models_used": [
+        "ResNet50",
+        "DenseNet169"
+      ],
+      "combination_label": "ResNet50 + DenseNet169"
+    },
+    "7_3": {
+      "id": "7",
+      "name": "DEUX_DL_ML_BAGGING - Dual DL + ML Bagging",
+      "type": "Hybrid Ensemble",
+      "file": "experiments/dual_hybrid_ensemble.py",
+      "description": "Two DL models + ML Bagging ensemble",
+      "status": "TIMEOUT",
+      "start_time": "2026-03-07T00:22:51.463504",
+      "end_time": "2026-03-07T01:22:51.464484",
+      "duration": 3600.00098,
+      "error": "Execution timeout after 1 hour",
+      "command": "/home/akachat/tf_env/bin/python -u /home/akachat/tf_env/Ensemble_CNN_Melanoma/experiments/dual_hybrid_ensemble.py",
+      "models_used": [
+        "EfficientNetV2B2",
+        "DenseNet169"
+      ],
+      "combination_label": "EfficientNetV2B2 + DenseNet169"
+    },
+    "8_1": {
+      "id": "8",
+      "name": "TROIS_DL_ML - Triple DL + ML",
+      "type": "Hybrid (Triple-DL+ML)",
+      "file": "experiments/triple_dl_ml.py",
+      "description": "Three DL models combined + Machine Learning classifiers",
+      "status": "SUCCESS",
+      "start_time": "2026-03-07T01:22:54.465424",
+      "end_time": "2026-03-07T02:20:24.961501",
+      "duration": 3450.496077,
+      "error": null,
+      "command": "/home/akachat/tf_env/bin/python -u /home/akachat/tf_env/Ensemble_CNN_Melanoma/experiments/triple_dl_ml.py",
+      "models_used": [
+        "ResNet50",
+        "EfficientNetV2B2",
+        "DenseNet169"
+      ],
+      "combination_label": "ResNet50 + EfficientNetV2B2 + DenseNet169",
+      "stdout_lines": 0,
+      "stderr_lines": 0
+    },
+    "9_1": {
+      "id": "9",
+      "name": "TROIS_DL_ML_BAGGING - Triple DL + ML Bagging",
+      "type": "Hybrid Ensemble",
+      "file": "experiments/triple_hybrid_ensemble.py",
+      "description": "Three DL models + ML Bagging ensemble",
+      "status": "TIMEOUT",
+      "start_time": "2026-03-07T02:20:27.962698",
+      "end_time": "2026-03-07T03:20:27.963535",
+      "duration": 3600.000837,
+      "error": "Execution timeout after 1 hour",
+      "command": "/home/akachat/tf_env/bin/python -u /home/akachat/tf_env/Ensemble_CNN_Melanoma/experiments/triple_hybrid_ensemble.py",
+      "models_used": [
+        "ResNet50",
+        "EfficientNetV2B2",
+        "DenseNet169"
+      ],
+      "combination_label": "ResNet50 + EfficientNetV2B2 + DenseNet169"
+    }
+  },
+  "summary": {
+    "total": 18,
+    "successful": 8,
+    "failed": 0,
+    "errors": 0,
+    "timeouts": 4,
+    "skipped": 6,
+    "total_duration_seconds": 27433.118725
+  }
+}

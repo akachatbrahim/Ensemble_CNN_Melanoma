@@ -1,0 +1,18 @@
+2026-03-07 06:05:10 - INFO - ================================================================================
+2026-03-07 06:05:10 - INFO - AUTOMATIC TEST RUNNER STARTED
+2026-03-07 06:05:10 - INFO - ================================================================================
+2026-03-07 06:05:31 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): ResNet50.pkl
+2026-03-07 06:05:32 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): EfficientNetV2B2.pkl
+2026-03-07 06:05:33 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): DenseNet169.pkl
+2026-03-07 06:38:58 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 2001.87s
+2026-03-07 07:11:54 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1975.00s
+2026-03-07 07:40:41 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1726.16s
+2026-03-07 08:04:04 - INFO - ✓ DL_BAGGING - DL Ensemble (3 Models) completed in 1399.94s
+2026-03-07 08:18:47 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 880.08s
+2026-03-07 08:33:36 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 888.56s
+2026-03-07 08:51:14 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 1056.88s
+2026-03-07 08:51:17 - INFO - ⊘ DL_ML_BAGGING - ML Bagging skipped (pkl exists): ResNet50.pkl
+2026-03-07 08:51:18 - INFO - ⊘ DL_ML_BAGGING - ML Bagging skipped (pkl exists): EfficientNetV2B2.pkl
+2026-03-07 08:51:19 - INFO - ⊘ DL_ML_BAGGING - ML Bagging skipped (pkl exists): DenseNet169.pkl
+2026-03-07 09:51:22 - ERROR - Timeout: DEUX_DL_ML_BAGGING - Dual DL + ML Bagging
+2026-03-07 10:51:23 - ERROR - Timeout: DEUX_DL_ML_BAGGING - Dual DL + ML Bagging

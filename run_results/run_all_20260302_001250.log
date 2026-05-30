@@ -1,0 +1,16 @@
+2026-03-02 00:12:50 - INFO - ================================================================================
+2026-03-02 00:12:50 - INFO - AUTOMATIC TEST RUNNER STARTED
+2026-03-02 00:12:50 - INFO - ================================================================================
+2026-03-02 00:13:34 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): ResNet50.pkl
+2026-03-02 00:13:35 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): EfficientNetV2B2.pkl
+2026-03-02 00:13:36 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): DenseNet169.pkl
+2026-03-02 00:44:28 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1848.98s
+2026-03-02 01:16:03 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1893.70s
+2026-03-02 01:42:51 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1607.03s
+2026-03-02 02:09:11 - INFO - ✓ DL_BAGGING - DL Ensemble (3 Models) completed in 1577.34s
+2026-03-02 02:26:20 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 1026.45s
+2026-03-02 02:43:20 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 1019.08s
+2026-03-02 03:03:34 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 1212.37s
+2026-03-02 03:03:37 - INFO - ⊘ DL_ML_BAGGING - ML Bagging skipped (pkl exists): ResNet50.pkl
+2026-03-02 03:03:38 - INFO - ⊘ DL_ML_BAGGING - ML Bagging skipped (pkl exists): EfficientNetV2B2.pkl
+2026-03-02 03:03:39 - INFO - ⊘ DL_ML_BAGGING - ML Bagging skipped (pkl exists): DenseNet169.pkl

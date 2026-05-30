@@ -1,0 +1,24 @@
+2026-03-06 19:42:25 - INFO - ================================================================================
+2026-03-06 19:42:25 - INFO - AUTOMATIC TEST RUNNER STARTED
+2026-03-06 19:42:25 - INFO - ================================================================================
+2026-03-06 19:42:43 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): ResNet50.pkl
+2026-03-06 19:42:44 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): EfficientNetV2B2.pkl
+2026-03-06 19:42:45 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): DenseNet169.pkl
+2026-03-06 20:14:27 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1898.32s
+2026-03-06 20:46:47 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1939.07s
+2026-03-06 21:14:34 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1665.95s
+2026-03-06 21:36:42 - INFO - ✓ DL_BAGGING - DL Ensemble (3 Models) completed in 1325.16s
+2026-03-06 21:50:27 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 822.40s
+2026-03-06 22:06:06 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 938.00s
+2026-03-06 22:22:41 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 993.72s
+2026-03-06 22:22:44 - INFO - ⊘ DL_ML_BAGGING - ML Bagging skipped (pkl exists): ResNet50.pkl
+2026-03-06 22:22:45 - INFO - ⊘ DL_ML_BAGGING - ML Bagging skipped (pkl exists): EfficientNetV2B2.pkl
+2026-03-06 22:22:46 - INFO - ⊘ DL_ML_BAGGING - ML Bagging skipped (pkl exists): DenseNet169.pkl
+2026-03-06 23:22:49 - ERROR - Timeout: DEUX_DL_ML_BAGGING - Dual DL + ML Bagging
+2026-03-07 00:22:50 - ERROR - Timeout: DEUX_DL_ML_BAGGING - Dual DL + ML Bagging
+2026-03-07 01:22:51 - ERROR - Timeout: DEUX_DL_ML_BAGGING - Dual DL + ML Bagging
+2026-03-07 02:20:24 - INFO - ✓ TROIS_DL_ML - Triple DL + ML completed in 3450.50s
+2026-03-07 03:20:27 - ERROR - Timeout: TROIS_DL_ML_BAGGING - Triple DL + ML Bagging
+2026-03-07 03:20:28 - INFO - ================================================================================
+2026-03-07 03:20:28 - INFO - AUTOMATIC TEST RUNNER COMPLETED
+2026-03-07 03:20:28 - INFO - ================================================================================

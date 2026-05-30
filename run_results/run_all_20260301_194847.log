@@ -1,0 +1,14 @@
+2026-03-01 19:48:47 - INFO - ================================================================================
+2026-03-01 19:48:47 - INFO - AUTOMATIC TEST RUNNER STARTED
+2026-03-01 19:48:47 - INFO - ================================================================================
+2026-03-01 19:55:54 - INFO - ✓ DL_ML - Hybrid DL+ML completed in 391.92s
+2026-03-01 20:03:39 - INFO - ✓ DL_ML - Hybrid DL+ML completed in 463.94s
+2026-03-01 20:14:30 - INFO - ✓ DL_ML - Hybrid DL+ML completed in 650.48s
+2026-03-01 20:46:17 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1903.93s
+2026-03-01 21:18:25 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1926.30s
+2026-03-01 21:46:26 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1680.83s
+2026-03-01 22:13:25 - INFO - ✓ DL_BAGGING - DL Ensemble (3 Models) completed in 1615.35s
+2026-03-01 22:28:29 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 901.37s
+2026-03-01 22:45:05 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 994.49s
+2026-03-01 23:03:28 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 1102.17s
+2026-03-01 23:11:21 - INFO - ✓ DL_ML_BAGGING - ML Bagging completed in 470.13s

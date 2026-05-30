@@ -1,0 +1,6 @@
+2026-03-07 05:49:06 - INFO - ================================================================================
+2026-03-07 05:49:06 - INFO - AUTOMATIC TEST RUNNER STARTED
+2026-03-07 05:49:06 - INFO - ================================================================================
+2026-03-07 05:49:25 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): ResNet50.pkl
+2026-03-07 05:49:26 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): EfficientNetV2B2.pkl
+2026-03-07 05:49:27 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): DenseNet169.pkl

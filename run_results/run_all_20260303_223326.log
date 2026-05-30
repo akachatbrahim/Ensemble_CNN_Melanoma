@@ -1,0 +1,30 @@
+2026-03-03 22:33:26 - INFO - ================================================================================
+2026-03-03 22:33:26 - INFO - AUTOMATIC TEST RUNNER STARTED
+2026-03-03 22:33:26 - INFO - ================================================================================
+2026-03-03 22:33:30 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): ResNet50.pkl
+2026-03-03 22:33:31 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): MobileNetV2.pkl
+2026-03-03 22:33:32 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): EfficientNetV2B0.pkl
+2026-03-03 22:33:33 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): EfficientNetV2B2.pkl
+2026-03-03 22:33:34 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): EfficientNetV2B3.pkl
+2026-03-03 22:33:35 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): EfficientNetV2M.pkl
+2026-03-03 22:33:36 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): DenseNet121.pkl
+2026-03-03 22:33:37 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): DenseNet169.pkl
+2026-03-03 22:33:38 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): VGG16.pkl
+2026-03-03 22:33:39 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): VGG19.pkl
+2026-03-03 22:33:40 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): CNN.pkl
+2026-03-03 22:33:57 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): ResNet50.pkl
+2026-03-03 22:33:58 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): EfficientNetV2B2.pkl
+2026-03-03 22:33:59 - INFO - ⊘ DL_ML - Hybrid DL+ML skipped (pkl exists): DenseNet169.pkl
+2026-03-03 23:04:22 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1820.66s
+2026-03-03 23:35:11 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1847.69s
+2026-03-04 00:02:13 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1620.61s
+2026-03-04 00:29:49 - INFO - ✓ DL_BAGGING - DL Ensemble (3 Models) completed in 1653.58s
+2026-03-04 00:46:01 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 969.20s
+2026-03-04 01:03:43 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 1060.63s
+2026-03-04 02:03:44 - ERROR - Timeout: DEUX_DL_BAGGING - DL Ensemble (2 Models)
+2026-03-04 02:43:37 - INFO - ⊘ DL_ML_BAGGING - ML Bagging skipped (pkl exists): ResNet50.pkl
+2026-03-04 02:43:38 - INFO - ⊘ DL_ML_BAGGING - ML Bagging skipped (pkl exists): EfficientNetV2B2.pkl
+2026-03-04 02:43:39 - INFO - ⊘ DL_ML_BAGGING - ML Bagging skipped (pkl exists): DenseNet169.pkl
+2026-03-04 03:43:42 - ERROR - Timeout: DEUX_DL_ML_BAGGING - Dual DL + ML Bagging
+2026-03-04 04:43:43 - ERROR - Timeout: DEUX_DL_ML_BAGGING - Dual DL + ML Bagging
+2026-03-04 05:43:44 - ERROR - Timeout: DEUX_DL_ML_BAGGING - Dual DL + ML Bagging

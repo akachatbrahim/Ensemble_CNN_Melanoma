@@ -1,0 +1,8 @@
+2026-02-27 23:26:40 - INFO - ================================================================================
+2026-02-27 23:26:40 - INFO - AUTOMATIC TEST RUNNER STARTED
+2026-02-27 23:26:40 - INFO - ================================================================================
+2026-02-27 23:36:28 - INFO - ✓ DL_ML - Hybrid DL+ML completed in 539.62s
+2026-02-28 00:16:05 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 2375.29s
+2026-02-28 00:55:34 - INFO - ✓ DL_BAGGING - DL Ensemble (3 Models) completed in 2366.70s
+2026-02-28 01:21:31 - INFO - ✓ DEUX_DL_BAGGING - DL Ensemble (2 Models) completed in 1555.10s
+2026-02-28 01:30:45 - INFO - ✓ DL_ML_BAGGING - ML Bagging completed in 551.63s

@@ -1,0 +1,24 @@
+2026-03-11 21:53:54 - INFO - ================================================================================
+2026-03-11 21:53:54 - INFO - AUTOMATIC TEST RUNNER STARTED
+2026-03-11 21:53:54 - INFO - ================================================================================
+2026-03-11 21:59:42 - INFO - ✓ DL_ML - Hybrid DL+ML completed in 337.85s
+2026-03-11 22:06:43 - INFO - ✓ DL_ML - Hybrid DL+ML completed in 420.64s
+2026-03-11 22:13:36 - INFO - ✓ DL_ML - Hybrid DL+ML completed in 412.04s
+2026-03-11 22:44:42 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1862.71s
+2026-03-11 23:15:06 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1822.64s
+2026-03-11 23:41:50 - INFO - ✓ DEUX_DL_ML - Multi-DL+ML Hybrid completed in 1603.09s
+2026-03-11 23:59:24 - INFO - ✓ DL_BAGGING - DL Ensemble (3 Models) completed in 1051.18s
+2026-03-11 23:59:37 - ERROR - ✗ DEUX_DL_BAGGING - DL Ensemble (2 Models) failed: Process returned code 1
+2026-03-11 23:59:49 - ERROR - ✗ DEUX_DL_BAGGING - DL Ensemble (2 Models) failed: Process returned code 1
+2026-03-11 23:59:52 - ERROR - ✗ DEUX_DL_BAGGING - DL Ensemble (2 Models) failed: Process returned code 1
+2026-03-12 00:00:06 - ERROR - ✗ DL_ML_BAGGING - ML Bagging failed: Process returned code 1
+2026-03-12 00:00:17 - ERROR - ✗ DL_ML_BAGGING - ML Bagging failed: Process returned code 1
+2026-03-12 00:00:28 - ERROR - ✗ DL_ML_BAGGING - ML Bagging failed: Process returned code 1
+2026-03-12 01:00:31 - ERROR - Timeout: DEUX_DL_ML_BAGGING - Dual DL + ML Bagging
+2026-03-12 02:00:32 - ERROR - Timeout: DEUX_DL_ML_BAGGING - Dual DL + ML Bagging
+2026-03-12 03:00:33 - ERROR - Timeout: DEUX_DL_ML_BAGGING - Dual DL + ML Bagging
+2026-03-12 03:55:51 - INFO - ✓ TROIS_DL_ML - Triple DL + ML completed in 3315.22s
+2026-03-12 04:55:54 - ERROR - Timeout: TROIS_DL_ML_BAGGING - Triple DL + ML Bagging
+2026-03-12 04:55:55 - INFO - ================================================================================
+2026-03-12 04:55:55 - INFO - AUTOMATIC TEST RUNNER COMPLETED
+2026-03-12 04:55:55 - INFO - ================================================================================

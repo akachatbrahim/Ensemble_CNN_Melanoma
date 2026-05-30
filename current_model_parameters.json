@@ -1,0 +1,25 @@
+{
+  "selected_models": [
+    "11",
+    "10",
+    "8"
+  ],
+  "timestamp": "2026-03-26T15:37:56.563057",
+  "parameters": {
+    "11": {
+      "model_name": "CNN",
+      "learning_rate": 0.001,
+      "weight_decay": 0.001
+    },
+    "10": {
+      "model_name": "VGG19",
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001
+    },
+    "8": {
+      "model_name": "DenseNet169",
+      "learning_rate": 0.0001,
+      "weight_decay": 0.0001
+    }
+  }
+}

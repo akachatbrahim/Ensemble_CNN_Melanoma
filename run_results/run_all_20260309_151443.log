@@ -1,0 +1,15 @@
+2026-03-09 15:14:43 - INFO - ================================================================================
+2026-03-09 15:14:43 - INFO - AUTOMATIC TEST RUNNER STARTED
+2026-03-09 15:14:43 - INFO - ================================================================================
+2026-03-09 15:14:48 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): ResNet50.pkl
+2026-03-09 15:14:49 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): MobileNetV2.pkl
+2026-03-09 15:18:06 - INFO - ✓ DL - Deep Learning completed in 196.07s
+2026-03-09 15:23:54 - INFO - ✓ DL - Deep Learning completed in 347.17s
+2026-03-09 15:29:42 - INFO - ✓ DL - Deep Learning completed in 346.95s
+2026-03-09 15:38:45 - INFO - ✓ DL - Deep Learning completed in 541.41s
+2026-03-09 15:43:30 - INFO - ✓ DL - Deep Learning completed in 284.05s
+2026-03-09 15:48:27 - INFO - ✓ DL - Deep Learning completed in 296.23s
+2026-03-09 15:54:02 - INFO - ✓ DL - Deep Learning completed in 333.94s
+2026-03-09 15:59:46 - INFO - ✓ DL - Deep Learning completed in 342.70s
+2026-03-09 16:05:32 - INFO - ✓ DL - Deep Learning completed in 345.27s
+2026-03-09 16:12:20 - INFO - ✓ DL - Deep Learning completed in 407.32s

@@ -1,0 +1,15 @@
+2026-03-18 18:25:44 - INFO - ================================================================================
+2026-03-18 18:25:44 - INFO - AUTOMATIC TEST RUNNER STARTED
+2026-03-18 18:25:44 - INFO - ================================================================================
+2026-03-18 18:25:48 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): ResNet50.pkl
+2026-03-18 18:25:49 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): MobileNetV2.pkl
+2026-03-18 18:25:50 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): EfficientNetV2B0.pkl
+2026-03-18 18:25:51 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): EfficientNetV2B2.pkl
+2026-03-18 18:25:52 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): EfficientNetV2B3.pkl
+2026-03-18 18:25:53 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): EfficientNetV2M.pkl
+2026-03-18 18:25:54 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): DenseNet121.pkl
+2026-03-18 18:25:55 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): DenseNet169.pkl
+2026-03-18 18:25:56 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): VGG16.pkl
+2026-03-18 18:25:57 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): VGG19.pkl
+2026-03-18 18:25:58 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): CNN.pkl
+2026-03-18 18:25:59 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): ConvNeXtSmall.pkl

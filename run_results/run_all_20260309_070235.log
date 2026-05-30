@@ -1,0 +1,15 @@
+2026-03-09 07:02:35 - INFO - ================================================================================
+2026-03-09 07:02:35 - INFO - AUTOMATIC TEST RUNNER STARTED
+2026-03-09 07:02:35 - INFO - ================================================================================
+2026-03-09 07:02:42 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): ResNet50.pkl
+2026-03-09 07:02:43 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): MobileNetV2.pkl
+2026-03-09 07:02:44 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): EfficientNetV2B0.pkl
+2026-03-09 07:02:45 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): EfficientNetV2B2.pkl
+2026-03-09 07:02:46 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): EfficientNetV2B3.pkl
+2026-03-09 07:02:47 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): EfficientNetV2M.pkl
+2026-03-09 07:02:48 - INFO - ⊘ DL - Deep Learning skipped (pkl exists): DenseNet121.pkl
+2026-03-09 07:02:52 - ERROR - ✗ DL - Deep Learning failed: Process returned code 1
+2026-03-09 07:02:57 - ERROR - ✗ DL - Deep Learning failed: Process returned code 1
+2026-03-09 07:03:01 - ERROR - ✗ DL - Deep Learning failed: Process returned code 1
+2026-03-09 07:09:02 - INFO - ✓ DL - Deep Learning completed in 359.79s
+2026-03-09 07:16:50 - INFO - ✓ DL - Deep Learning completed in 466.45s
