@@ -566,10 +566,11 @@ def menu_main():
         print("  9. 🎨 Extract Plots from PKL Files")
         print("  10. 🎨 Generate Plots from PKL Files")
         print("  11. 🚀 Run Full Test Suite (All Experiments)")
-        print("  12. ℹ️  About")
+        print("  12. 🧪 Diagnostic Image")
+        print("  13. ℹ️  About")
         print("  0. ❌ Exit\n")
         
-        choice = input("Enter your choice (0-12): ").strip()
+        choice = input("Enter your choice (0-13): ").strip()
         
         if choice == "1":
             menu_run_experiments()
@@ -600,6 +601,9 @@ def menu_main():
             run_full_test_suite()
             input("\nPress Enter to continue...")
         elif choice == "12":
+            run_interactive_test()
+            input("\nPress Enter to continue...")
+        elif choice == "13":
             show_about()
             input("\nPress Enter to continue...")
         elif choice == "0":
@@ -1479,6 +1483,46 @@ def run_full_test_suite():
         print_warning("\nTest suite interrupted by user")
     except Exception as e:
         print_error(f"Exception during test suite: {str(e)}")
+
+# ============================================================================
+# INTERACTIVE TESTER
+# ============================================================================
+
+def run_interactive_test():
+    """Launch the demo script instead of the interactive tester."""
+    print_header("🧪 DEMO LAUNCHER")
+
+    python_exec = "/home/akachat/tf_env/bin/python"
+    if not Path(python_exec).exists():
+        python_exec = "python3"
+
+    demo_script = ARTICLE_DIR / "demo.py"
+
+    if not demo_script.exists():
+        print_error(f"Demo script not found: {demo_script}")
+        print_info("Make sure 'demo.py' is present in the project root")
+        return
+
+    print_info("Launching demo script...")
+    print_info(f"Script: {demo_script}")
+    print()
+
+    try:
+        result = subprocess.run(
+            [python_exec, str(demo_script)],
+            cwd=str(ARTICLE_DIR),
+            text=True
+        )
+
+        if result.returncode == 0:
+            print_success("✓ Demo finished successfully!")
+        else:
+            print_error(f"Demo exited with return code {result.returncode}")
+
+    except KeyboardInterrupt:
+        print_warning("\nDemo interrupted by user")
+    except Exception as e:
+        print_error(f"Exception while launching demo: {str(e)}")
 
 # ============================================================================
 # INFO FUNCTIONS
