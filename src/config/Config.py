@@ -1,8 +1,8 @@
 #project to path
 path_project = "/home/akachat/tf_env/Ensemble_CNN_Melanoma"
 # Training settings
-train_dir = f"{path_project}/data/train"
-test_dir = f"{path_project}/data/test"
+train_dir = f"{path_project}/melanoma_cancer_dataset/train"
+test_dir = f"{path_project}/melanoma_cancer_dataset/test"
 save_model_path = f"{path_project}/Models/"
 PLOTS_DIR = f"{path_project}/plots/"
 num_classes = 1
