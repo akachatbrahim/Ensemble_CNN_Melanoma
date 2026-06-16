@@ -27,7 +27,7 @@ weight_decay_two = 1e-5
 learning_rate_three = 3e-4
 weight_decay_three = 1e-5
 
-patience = 10
+patience = 8
 min_delta = 0.001
 batch_size = 32
 img_size = (224, 224)
